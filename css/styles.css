@@ -13,6 +13,7 @@
 body {
     font-family: var(--primery-font);
     color: var(--primery-text-color);
+    background-color: var(--accent-color);
 }
 
 .list {
@@ -27,6 +28,7 @@ body {
 
 .header-logo {
     font-family: var(--secondary-font);
+    font-size: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -55,11 +57,10 @@ body {
 }
 
 .header-contact {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    font-style: normal;
 }
 
 .header-contact:hover,
@@ -71,7 +72,7 @@ body {
 
 .hero-title {
     font-family: var(--primery-font);
-    font-weight: 700;
+    font-weight: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -90,6 +91,8 @@ body {
     cursor: pointer;
     color: var(--accent-color);
     background: var(--tertiary-text-color);
+    border: none;
+    padding: 16px, 32px;
 }
 
 .hero-btn:hover,
@@ -127,7 +130,6 @@ body {
 }
 
 .advantages-text {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
@@ -170,7 +172,6 @@ body {
 }
 
 .team-text {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
@@ -179,8 +180,9 @@ body {
 /*======FOOTER========*/
 
 
-.logotype link {
-    font-family: var(--secondary-text-color);
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -191,12 +193,11 @@ body {
     color: var(--tertiary-text-color);
 }
 
-.footer-color {
+.footer-logo-color {
     color: var(--backgrounds-color);
 }
 
 .footer-text {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cornflower-color);
@@ -209,6 +210,7 @@ body {
 /*======PORTFOLIO========*/
 
 .menu-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -216,6 +218,8 @@ body {
     cursor: pointer;
     color: var(--tertiary-text-color);
     background: var(--backgrounds-color);
+    border: none;
+    padding: 12px, 24px;
 }
 
 .menu-btn:hover,
@@ -233,7 +237,6 @@ body {
 }
 
 .portfolio-text {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
